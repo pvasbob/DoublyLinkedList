@@ -1,6 +1,8 @@
 Visual Studio: 2019
 Windows SDK Version: 10.0
 
+Pressing Ctrl + F5 builds the projects. The first time might fail because the GoogleTest.lib file needs to be copied to the DoublyLinkedList project. After doing this, the second compilation attempt will succeed.
+
 Description: This project implements a doubly linked list data structure in C++. The doubly linked list allows elements to be added, removed, and searched efficiently. It provides operations such as adding nodes, removing nodes, checking if the list contains a specific element, clearing the list, and printing the list contents. The implementation is templated, allowing it to work with different data types. The project also includes unit tests using the Google Test framework to verify the correctness of the implementation.
 
 Files:
